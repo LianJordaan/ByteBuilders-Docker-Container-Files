@@ -7,6 +7,7 @@ WORKDIR /minecraft
 # Copy all files and directories from the 'defaults' folder into '/minecraft/'
 COPY minecraft/ /minecraft/
 COPY scripts/ /scripts/
+COPY .env /.env
 
 # Make the startup script executable
 RUN chmod +x /scripts/start.sh
