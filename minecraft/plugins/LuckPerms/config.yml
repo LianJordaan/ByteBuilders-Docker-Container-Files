@@ -102,8 +102,8 @@ data:
   database: bytebuilders
 
   # Credentials for the database.
-  username: ''
-  password: ''
+  username: 'bytebuilders_luckperms'
+  password: 'YOUR_DATABASE_PASSWORD_HERE'
 
   # These settings apply to the MySQL connection pool.
   # - The default values will be suitable for the majority of users.
